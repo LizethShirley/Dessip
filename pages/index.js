@@ -165,7 +165,7 @@ function Mycomponent(props) {
     <Box >
     <Grid container wrap="nowrap">
       {(loading ? Array.from(new Array(3)) : data).map((item, index) => (
-        <Box key={index} sx={{ width: '35%', marginRight: 0.5, my: 5, border: '10px solid', p:3, bgcolor: '#ffffff'}}>
+        <Box key={index} sx={{ width: '35%', marginRight: 0.5, my: 5, border: '10px', p:3, bgcolor: '#ffffff'}}>
           {item ? (
             <img
               style={{ width: 210, height: 140 }}
