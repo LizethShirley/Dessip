@@ -131,7 +131,7 @@ function Mycomponent(props) {
       </nav>
     </Box>
     <div id='inicio'>
-    <Box sx={{border: '20px solid', p:3}}>
+    <Box sx={{border: '20px', p:3}}>
     <Toolbar/>
       <Typography sx={{color: '#000', fontSize: 40}} textAlign="center">
         DESSIP<br></br>
